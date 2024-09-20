@@ -1,0 +1,21 @@
+1) <Button asChild>
+                <Link href="/login">Log In</Link>
+    </Button> 
+        asChild will give all the styles to child component.
+2) https://ui.shadcn.com/themes
+    make your themes and copy it in globall css
+    https://www.udemy.com/course/shadcn-ui/learn/lecture/41378508#overview
+
+
+3)  --primary: 333 71% 51%;
+    --primary-foreground: 0 0% 100%;
+
+    change it in global css file for pink or whatever color you want 
+
+4) if Dark mode and light mode not working then see / global.css file and remove below
+   
+    body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+    }
