@@ -15,7 +15,7 @@ const PasswordInput = React.forwardRef<HTMLInputElement, PasswordInputProps>(
     return (
     <div className="relative">
         <Input 
-            type={showPassword ? "text" : "password"}
+            type = {showPassword ? "text" : "password"}
             {...props} ref={ref} className={cn("pr-10", className)}/>
         <span className="absolute top-[7px] right-1 cursor-pointer select-none">
         {showPassword ? (
