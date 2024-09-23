@@ -19,6 +19,13 @@ export default function LandingPage(){
             <Link href="/signup">Sign Up</Link>
             </Button> 
             </div>
+            <div className="flex gap-2 items-center">            
+            <Button asChild>
+                <Link href="/dashboard">DashBoard</Link>
+            </Button>
+            
+            </div>
+
         </>
     )
 }
